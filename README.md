@@ -1,3 +1,4 @@
-# weather_app
+Flutter-Based Weather App Utilizing OpenWeatherMap API
 
-A new Flutter project.
+Screenshotd:
+\screenshots\Weather App - Screenshot.png
