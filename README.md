@@ -1,4 +1,4 @@
 Flutter-Based Weather App Utilizing OpenWeatherMap API
 
-Screenshotd:
-\screenshots\Weather App - Screenshot.png
+Screenshot - >
+screenshots\Weather App - Screenshot.png
