@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:weather_app/core/app/app_info.dart';
+import 'package:weather_app/presentation/pages/splash_screen.dart';
+import 'package:weather_app/presentation/widgets/material_app_widget.dart';
 
-void main() {
-  runApp(const MyApp());
+Future main() async {
+  await dotenv.load(fileName: ".env");
+  runApp(MaterialApp(title: appName, home: MyApp()));
 }
 
 class MyApp extends StatefulWidget {
@@ -14,6 +19,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialAppWidget(child: const SplashScreen());
   }
 }
