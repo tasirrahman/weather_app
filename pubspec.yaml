@@ -15,6 +15,10 @@ dependencies:
   flutter_dotenv: ^5.2.1
   flutter_launcher_icons: ^0.14.3
   provider: ^6.1.5
+  geolocator: ^14.0.0
+  http: ^1.4.0
+  intl: ^0.20.2
+  permission_handler: ^12.0.0+1
 
 dev_dependencies:
   flutter_test:
@@ -31,7 +35,7 @@ flutter:
 
   assets:
     - .env
-    - assets/House_01.png
-    - assets/Weather_01.png
+    - assets/house_01.png
+    - assets/weather_01.png
     - assets/logo/app_logo_transparent.png
     - assets/logo/app_logo.png
