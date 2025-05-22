@@ -3,7 +3,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:provider/provider.dart';
 import 'package:weather_app/app/app_info.dart';
 import 'package:weather_app/view_model/weather_providers.dart';
-import 'package:weather_app/view/pages/intro_screen.dart';
+import 'package:weather_app/view/screens/intro_screen.dart';
 import 'package:weather_app/view/widgets/material_app_widget.dart';
 
 Future main() async {
